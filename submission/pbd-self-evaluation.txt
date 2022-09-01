@@ -1,0 +1,77 @@
+1. Proactive not Reactive; Preventative not Remedial
+    a. How this application does it -
+    
+    This application builts privacy in from the beginning by obfuscating 
+    critical data like the voter id and voter name.
+    
+    b. What we can do better -
+
+2. Privacy as the Default
+    a. How this application does it -
+    
+    The application only requests and stores minimal privacy data
+    which is absolutely required for the use case.
+    
+    b. What we can do better -
+
+3. Privacy Embedded into Design
+    a. How this application does it -
+    
+    The application even takes care to redact privacy data from 
+    voters comments automatically. 
+    This is much better than just asking the voter to not use
+    any privacy data in her comment.
+    
+    b. What we can do better -
+
+4. Full Functionality — Postive-Sum, not Zero-Sum
+    a. How this application does it -
+    
+    An example is the comment functionality. One could just 
+    live without it. But the application provides a 
+    better user experience by applying privacy engineering.
+    
+    b. What we can do better -
+
+5. End-to-End Security — Lifecycle Protection
+    a. How this application does it -
+    
+    Privacy data is stored in an encrypted form in the database. 
+    So even if someone should gain access to a leaked database,
+    she wont be able to find out how someone voted.
+    
+    b. What we can do better -
+
+    Http communication should also be encrypted via https.
+    Additionally the database itself could be encrypted.
+
+6. Visibility and Transparency
+    
+    a. How this application does it -
+    
+    The application communicates clearly to the voter what
+    kind of data is being stored and how.
+    It also informs the voter that he can deregister after
+    voting.
+    
+    b. What we can do better -
+
+    The application could offer a web interface to the voter
+    to immediately let him delete his data after voting or
+    even delete the data automatically after some time.
+    Its not quite clear what happens to the data when the voter
+    does not ask for deregistration (how long will it be kept, what else might it be used for)
+
+7. Respect for User Privacy
+    a. How this application does it -
+    
+    Offering the voter to deregister and communicating that fact
+    upfront before voting is a clear sign of respect for voters
+    privacy.
+
+    b. What we can do better -
+
+    Tell the voter what of her data, how long and why it will be stored, as well
+    as deleting it automatically.
+    Also it might not be clear what deregistration means and what kind of 
+    data it will delete.
